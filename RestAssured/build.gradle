@@ -30,6 +30,12 @@ dependencies {
 
     // Use the Kotlin JUnit integration.
     testImplementation 'org.jetbrains.kotlin:kotlin-test-junit'
+
+    testRuntimeOnly "org.junit.jupiter:junit-jupiter-engine:5.2.0"
+    testRuntimeOnly "org.junit.vintage:junit-vintage-engine:5.2.0"
+
+    //integration testing
+    implementation "com.jayway.restassured:rest-assured:2.9.0"
 }
 
 application {

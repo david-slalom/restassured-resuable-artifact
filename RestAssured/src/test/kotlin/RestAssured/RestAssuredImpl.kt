@@ -7,7 +7,7 @@ import com.jayway.restassured.response.Cookie
 import org.junit.Assert
 import org.junit.Test
 
-class RestAssuredImplemintation: AbstractRestAssured() {
+class RestAssuredImpl: AbstractRestAssured() {
     
     @Test
     fun `Get Endpoint`() {
