@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="72e7c327-07dc-495d-a0ea-6d39a0fc78f0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
@@ -202,37 +203,68 @@
       <updated>1598543946320</updated>
       <workItem from="1598543951400" duration="667000" />
       <workItem from="1599679562413" duration="5835000" />
-      <workItem from="1599686032054" duration="3367000" />
+      <workItem from="1599686032054" duration="3655000" />
     </task>
+    <task id="LOCAL-00001" summary="Added Controller for test application and divided tests based on functionality.">
+      <created>1599689508378</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1599689508378</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added Controller for test application and divided tests based on functionality." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Controller for test application and divided tests based on functionality." />
   </component>
   <component name="WindowStateProjectService">
     <state x="241" y="-1058" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599682550668">
       <screen x="-503" y="-1440" width="2560" height="1440" />
     </state>
     <state x="241" y="-1058" key="#com.intellij.execution.impl.EditConfigurationsDialog/-503.-1440.2560.1440/0.0.1680.1050@-503.-1440.2560.1440" timestamp="1599682550668" />
-    <state width="1878" height="401" key="GridCell.Tab.0.bottom" timestamp="1599689410744">
+    <state x="-45" y="-938" key="CommitChangelistDialog2" timestamp="1599689508106">
       <screen x="-503" y="-1080" width="1920" height="1080" />
     </state>
-    <state width="1878" height="401" key="GridCell.Tab.0.bottom/-503.-1080.1920.1080/0.0.1680.1050@-503.-1080.1920.1080" timestamp="1599689410744" />
+    <state x="-45" y="-938" key="CommitChangelistDialog2/-503.-1080.1920.1080/0.0.1680.1050@-503.-1080.1920.1080" timestamp="1599689508106" />
+    <state x="-403" y="-980" width="1720" height="880" key="DiffContextDialog" timestamp="1599689727250">
+      <screen x="-503" y="-1080" width="1920" height="1080" />
+    </state>
+    <state x="-403" y="-980" width="1720" height="880" key="DiffContextDialog/-503.-1080.1920.1080/0.0.1680.1050@-503.-1080.1920.1080" timestamp="1599689727250" />
+    <state width="939" height="401" key="GridCell.Tab.0.bottom" timestamp="1599689599752">
+      <screen x="-503" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="939" height="401" key="GridCell.Tab.0.bottom/-503.-1080.1920.1080/0.0.1680.1050@-503.-1080.1920.1080" timestamp="1599689599752" />
     <state width="2518" height="423" key="GridCell.Tab.0.bottom/-503.-1440.2560.1440/0.0.1680.1050@-503.-1440.2560.1440" timestamp="1599685518288" />
-    <state width="1878" height="401" key="GridCell.Tab.0.center" timestamp="1599689410743">
+    <state width="939" height="401" key="GridCell.Tab.0.center" timestamp="1599689599749">
       <screen x="-503" y="-1080" width="1920" height="1080" />
     </state>
-    <state width="1878" height="401" key="GridCell.Tab.0.center/-503.-1080.1920.1080/0.0.1680.1050@-503.-1080.1920.1080" timestamp="1599689410743" />
+    <state width="939" height="401" key="GridCell.Tab.0.center/-503.-1080.1920.1080/0.0.1680.1050@-503.-1080.1920.1080" timestamp="1599689599749" />
     <state width="2518" height="423" key="GridCell.Tab.0.center/-503.-1440.2560.1440/0.0.1680.1050@-503.-1440.2560.1440" timestamp="1599685518286" />
-    <state width="1878" height="401" key="GridCell.Tab.0.left" timestamp="1599689410742">
+    <state width="939" height="401" key="GridCell.Tab.0.left" timestamp="1599689599748">
       <screen x="-503" y="-1080" width="1920" height="1080" />
     </state>
-    <state width="1878" height="401" key="GridCell.Tab.0.left/-503.-1080.1920.1080/0.0.1680.1050@-503.-1080.1920.1080" timestamp="1599689410742" />
+    <state width="939" height="401" key="GridCell.Tab.0.left/-503.-1080.1920.1080/0.0.1680.1050@-503.-1080.1920.1080" timestamp="1599689599748" />
     <state width="2518" height="423" key="GridCell.Tab.0.left/-503.-1440.2560.1440/0.0.1680.1050@-503.-1440.2560.1440" timestamp="1599685518284" />
-    <state width="1878" height="401" key="GridCell.Tab.0.right" timestamp="1599689410744">
+    <state width="939" height="401" key="GridCell.Tab.0.right" timestamp="1599689599751">
       <screen x="-503" y="-1080" width="1920" height="1080" />
     </state>
-    <state width="1878" height="401" key="GridCell.Tab.0.right/-503.-1080.1920.1080/0.0.1680.1050@-503.-1080.1920.1080" timestamp="1599689410744" />
+    <state width="939" height="401" key="GridCell.Tab.0.right/-503.-1080.1920.1080/0.0.1680.1050@-503.-1080.1920.1080" timestamp="1599689599751" />
     <state width="2518" height="423" key="GridCell.Tab.0.right/-503.-1440.2560.1440/0.0.1680.1050@-503.-1440.2560.1440" timestamp="1599685518287" />
     <state width="1878" height="615" key="GridCell.Tab.1.bottom" timestamp="1599685753804">
       <screen x="-503" y="-1080" width="1920" height="1080" />

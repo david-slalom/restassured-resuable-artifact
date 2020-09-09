@@ -1,0 +1,23 @@
+appAbrv: rstas
+server.servlet.context-path: /restassured/api
+
+spring:
+  main.allow-bean-definition-overriding: true
+  application:
+    name: recall
+
+management:
+  endpoints:
+    enabled-by-default: true
+    web:
+      base-path: /actuator
+      exposure.include: "*"
+  endpoint.health.show-details: ALWAYS
+  info.git.mode: full
+  metrics.export.graphite:
+    enabled: false
+    host: localhost
+    port: 2004
+    step: 10s
+    tagsAsPrefix: [prefix]
+    protocol: PICKLED

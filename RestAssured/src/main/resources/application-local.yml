@@ -1,0 +1,4 @@
+server.port: 8090
+APP_URL: http://localhost:8080
+
+management.metrics.export.graphite.enabled: false
