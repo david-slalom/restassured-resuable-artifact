@@ -7,6 +7,8 @@ Rest Assured Tests follow an Abstract Implementation and use SpringBootRunner fo
 
 Application uses the Spring framework and can be transpiled back into Java.
 
+Run ./gradlew test to run the test suite.
+
 Kotlin Version.
 
 Java Version Coming Soon. 
