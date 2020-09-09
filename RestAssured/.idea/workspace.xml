@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="72e7c327-07dc-495d-a0ea-6d39a0fc78f0" name="Default Changelist" comment="" />
+    <list default="true" id="72e7c327-07dc-495d-a0ea-6d39a0fc78f0" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/RestAssured/App.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/RestAssured/App.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/AbstrastRestAssured.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/kotlin/AbstractRestAssured.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/kotlin/RestAssured/RestAssuredImpl.kt" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -12,18 +23,172 @@
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="RestAssured" type="f1a62948:ProjectNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1ggl7DBliTY7RmG8t8wKmJqvtjl" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="show.unlinked.gradle.project.popup" value="true" />
+  </component>
+  <component name="RunManager" selected="Gradle.Tests in 'RestAssured.test'">
+    <configuration name="GetEndPointTest|PostEndpointTest|PutEndpointTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;test.kotlin.RestAssured.GetEndPointTest&quot; --tests &quot;test.kotlin.RestAssured.PostEndpointTest&quot; --tests &quot;test.kotlin.RestAssured.PutEndpointTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="PostEndpointTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;RestAssured.PostEndpointTest&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Tests in 'RestAssured'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;RestAssured.*&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="Tests in 'RestAssured.test'" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests *" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="cleanUp" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="--tests &quot;test.kotlin.RestAssured.GetEndPointTest.cleanUp&quot; --tests &quot;test.kotlin.RestAssured.PostEndpointTest.cleanUp&quot; --tests &quot;test.kotlin.RestAssured.PutEndpointTest.cleanUp&quot;" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":cleanTest" />
+            <option value=":test" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>false</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="RestAssured" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="RestAssured.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="RestAssured.RestAssured" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.Tests in 'RestAssured.test'" />
+        <item itemvalue="Gradle.Tests in 'RestAssured'" />
+        <item itemvalue="Gradle.PostEndpointTest" />
+        <item itemvalue="Gradle.GetEndPointTest|PostEndpointTest|PutEndpointTest" />
+        <item itemvalue="Gradle.cleanUp" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -36,10 +201,58 @@
       <option name="presentableId" value="Default" />
       <updated>1598543946320</updated>
       <workItem from="1598543951400" duration="667000" />
+      <workItem from="1599679562413" duration="5835000" />
+      <workItem from="1599686032054" duration="3367000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="241" y="-1058" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1599682550668">
+      <screen x="-503" y="-1440" width="2560" height="1440" />
+    </state>
+    <state x="241" y="-1058" key="#com.intellij.execution.impl.EditConfigurationsDialog/-503.-1440.2560.1440/0.0.1680.1050@-503.-1440.2560.1440" timestamp="1599682550668" />
+    <state width="1878" height="401" key="GridCell.Tab.0.bottom" timestamp="1599689410744">
+      <screen x="-503" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="401" key="GridCell.Tab.0.bottom/-503.-1080.1920.1080/0.0.1680.1050@-503.-1080.1920.1080" timestamp="1599689410744" />
+    <state width="2518" height="423" key="GridCell.Tab.0.bottom/-503.-1440.2560.1440/0.0.1680.1050@-503.-1440.2560.1440" timestamp="1599685518288" />
+    <state width="1878" height="401" key="GridCell.Tab.0.center" timestamp="1599689410743">
+      <screen x="-503" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="401" key="GridCell.Tab.0.center/-503.-1080.1920.1080/0.0.1680.1050@-503.-1080.1920.1080" timestamp="1599689410743" />
+    <state width="2518" height="423" key="GridCell.Tab.0.center/-503.-1440.2560.1440/0.0.1680.1050@-503.-1440.2560.1440" timestamp="1599685518286" />
+    <state width="1878" height="401" key="GridCell.Tab.0.left" timestamp="1599689410742">
+      <screen x="-503" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="401" key="GridCell.Tab.0.left/-503.-1080.1920.1080/0.0.1680.1050@-503.-1080.1920.1080" timestamp="1599689410742" />
+    <state width="2518" height="423" key="GridCell.Tab.0.left/-503.-1440.2560.1440/0.0.1680.1050@-503.-1440.2560.1440" timestamp="1599685518284" />
+    <state width="1878" height="401" key="GridCell.Tab.0.right" timestamp="1599689410744">
+      <screen x="-503" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="401" key="GridCell.Tab.0.right/-503.-1080.1920.1080/0.0.1680.1050@-503.-1080.1920.1080" timestamp="1599689410744" />
+    <state width="2518" height="423" key="GridCell.Tab.0.right/-503.-1440.2560.1440/0.0.1680.1050@-503.-1440.2560.1440" timestamp="1599685518287" />
+    <state width="1878" height="615" key="GridCell.Tab.1.bottom" timestamp="1599685753804">
+      <screen x="-503" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="615" key="GridCell.Tab.1.bottom/-503.-1080.1920.1080/0.0.1680.1050@-503.-1080.1920.1080" timestamp="1599685753804" />
+    <state width="2518" height="423" key="GridCell.Tab.1.bottom/-503.-1440.2560.1440/0.0.1680.1050@-503.-1440.2560.1440" timestamp="1599685217338" />
+    <state width="1878" height="615" key="GridCell.Tab.1.center" timestamp="1599685753802">
+      <screen x="-503" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="615" key="GridCell.Tab.1.center/-503.-1080.1920.1080/0.0.1680.1050@-503.-1080.1920.1080" timestamp="1599685753802" />
+    <state width="2518" height="423" key="GridCell.Tab.1.center/-503.-1440.2560.1440/0.0.1680.1050@-503.-1440.2560.1440" timestamp="1599685217337" />
+    <state width="1878" height="615" key="GridCell.Tab.1.left" timestamp="1599685753801">
+      <screen x="-503" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="615" key="GridCell.Tab.1.left/-503.-1080.1920.1080/0.0.1680.1050@-503.-1080.1920.1080" timestamp="1599685753801" />
+    <state width="2518" height="423" key="GridCell.Tab.1.left/-503.-1440.2560.1440/0.0.1680.1050@-503.-1440.2560.1440" timestamp="1599685217336" />
+    <state width="1878" height="615" key="GridCell.Tab.1.right" timestamp="1599685753803">
+      <screen x="-503" y="-1080" width="1920" height="1080" />
+    </state>
+    <state width="1878" height="615" key="GridCell.Tab.1.right/-503.-1080.1920.1080/0.0.1680.1050@-503.-1080.1920.1080" timestamp="1599685753803" />
+    <state width="2518" height="423" key="GridCell.Tab.1.right/-503.-1440.2560.1440/0.0.1680.1050@-503.-1440.2560.1440" timestamp="1599685217338" />
   </component>
 </project>
