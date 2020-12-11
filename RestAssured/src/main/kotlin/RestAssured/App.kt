@@ -5,11 +5,11 @@ import org.springframework.boot.autoconfigure.SpringBootApplication
 
 
 @SpringBootApplication
-class RestAssured {
+class App {
     companion object {
         @JvmStatic
         fun main(args: Array<String>) {
-            SpringApplication.run(RestAssured::class.java, *args)
+            SpringApplication.run(App::class.java, *args)
         }
     }
 }

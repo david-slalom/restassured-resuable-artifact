@@ -7,7 +7,12 @@ Rest Assured Tests follow an Abstract Implementation and use SpringBootRunner fo
 
 Application uses the Spring framework and can be transpiled back into Java.
 
-Run ./gradlew test to run the test suite.
+To initialize the project, change your directory to the RestAssured folder and run the following initialization script:
+./startup.sh
+
+This will install gradle into your machine, build the project, run the tests, then run the Application. 
+IMPORTANT: Tests can only currently be ran when the application is off, in order to open the port. 
+Tests will fail if the application is running concurrently. This will be addressed in a later release.
 
 Kotlin Version.
 
